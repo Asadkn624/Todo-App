@@ -1,5 +1,5 @@
-function register(e) {
-  e.preventDefault();
+function register(dets) {
+  dets.preventDefault();
 
   const username = document.getElementById("username").value;
   const email = document.getElementById("email").value;
