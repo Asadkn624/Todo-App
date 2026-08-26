@@ -28,7 +28,7 @@ function addTask(event) {
   const newTask = {
     id: Date.now(),
     title: inputText,
-    description: inputDescription, // ✅ description added
+    description: inputDescription,
     iscompleted: false,
     createdBy: {
       username: currentUser.username,
