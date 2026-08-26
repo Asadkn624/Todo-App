@@ -2,8 +2,8 @@ if (localStorage.setItem("loggeIn" === "true")) {
   location.href = "./html/home.html";
 }
 
-function login(e) {
-  e.preventDefault();
+function login(dets) {
+  dets.preventDefault();
 
   const email = document.getElementById("email").value;
   const password = document.getElementById("password").value;
